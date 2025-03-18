@@ -1,0 +1,172 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .header-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+  }
+  
+  .header-content h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #ecf0f1;
+  }
+  
+  .contact-info {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  /* Section styles */
+  .section {
+    padding: 20px 30px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+  
+  /* Skills section */
+  .skills-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill-group {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .skill-group p {
+    margin-bottom: 8px;
+  }
+  
+  /* Experience section */
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .job-header h4 {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .job-date {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+  
+  .job p {
+    margin-bottom: 10px;
+  }
+  
+  /* Projects section */
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project h4 {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  /* Education section */
+  .education-item {
+    margin-bottom: 15px;
+  }
+  
+  .education-item h4 {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  a {
+    color: white; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: gray; 
+}
+
+
+  @media (max-width: 768px) {
+    .resume-container {
+      box-shadow: none;
+    }
+  
+    .header-content h1 {
+      font-size: 2rem;
+    }
+  
+    .header-content h2 {
+      font-size: 1.2rem;
+    }
+  
+    .job-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .job-date {
+      margin-top: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      padding: 10px;
+    }
+  
+    .section {
+      padding: 15px 20px;
+    }
+  
+    .header-content h1 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  
